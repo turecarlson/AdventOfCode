@@ -17,5 +17,5 @@ def main():
     print(fuel_required)
 
 
-if __name__ == '__main()':
+if __name__ == '__main__':
     main()
