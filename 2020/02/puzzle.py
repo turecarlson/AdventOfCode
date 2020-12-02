@@ -1,11 +1,11 @@
 def main():
     nums = []
-    
+
     with open('./2020/01/input.txt') as f:
         file_contents = f.readlines()
         for each in file_contents:
             nums.append(int(each))
-            
+
     for i in range(len(nums)):
         for j in range(len(nums)):
             for k in range(len(nums)):
