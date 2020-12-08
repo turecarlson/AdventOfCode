@@ -5,7 +5,7 @@ def main():
     trees_encountered = 0
     with open('input.txt') as fil:
         for line in fil.readlines():
-            trees_map.append(line)
+            trees_map.append(line.strip())
 
     current_col = 0
     row_length = len(trees_map[0])
