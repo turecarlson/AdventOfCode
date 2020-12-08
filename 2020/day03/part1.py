@@ -1,5 +1,3 @@
-
-
 def main():
     trees_map = []
     trees_encountered = 0
